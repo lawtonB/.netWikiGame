@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{917F399A-74AE-428A-BFAA-76E287814B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52BC35E5-0190-43C2-9EE0-D9E7FCF92014}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WikiGame", "src\WikiGame\WikiGame.xproj", "{9AD2E2E9-9C31-4DA3-9830-C1FEA91FB72B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AD2E2E9-9C31-4DA3-9830-C1FEA91FB72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD2E2E9-9C31-4DA3-9830-C1FEA91FB72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD2E2E9-9C31-4DA3-9830-C1FEA91FB72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD2E2E9-9C31-4DA3-9830-C1FEA91FB72B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AD2E2E9-9C31-4DA3-9830-C1FEA91FB72B} = {917F399A-74AE-428A-BFAA-76E287814B22}
+	EndGlobalSection
+EndGlobal
