@@ -3,11 +3,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<h2 class="goaltitle"></h2>
 
+<div>Score:<span  data-bind="text: numberOfClicks"></span></div>
 
 <section>
-    <input type='text' value='' placeholder='Search for...'>
-    <button class="wiki">Make it so</button>
+    <input class="goal" type='text' value='' placeholder='Where do you want to end up?'>
+    <br />
+    <button class="wiki">Start</button>
 </section>
-<section class='articles'>
+<section data-bind="click: registerClick" class='articles'>
 </section>
